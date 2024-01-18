@@ -12,7 +12,8 @@ const NavigationBar = () => {
         <h2>Seva Services</h2>
       </div>
       <ul>
-        <li><Link to='/'>Home</Link></li>
+        <li><Link to='/seva-services
+        '>Home</Link></li>
         <li className="dropdown">
           <Link to='/services'>Services</Link>
           <ul className="dropdown-content">
