@@ -1,0 +1,40 @@
+/* ContentImageSection.css */
+.content-image-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .content-image-section.left .content {
+    order: 1;
+  }
+  
+  .content-image-section.right .content {
+    order: 2;
+  }
+  
+  .content-image-section .content {
+    flex: 1;
+    max-width: 50%;
+    align-items: flex-start; /* Align items at the start (left) */
+    text-align: left; /* Align text and body to the left */
+  }
+  
+  .content-image-section .content h2,
+  .content-image-section .content p {
+    text-align: left; /* Align title and body text to the left */
+  }
+  
+  .content-image-section .image {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .content-image-section img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Add additional styling as needed */
+  

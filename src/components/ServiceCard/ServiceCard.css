@@ -1,0 +1,50 @@
+.service-card {
+  display: flex;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  width: 35vw;
+  height: 17vw;
+  background-color: #e8fffb;
+  border-radius: 10px;
+}
+
+.text-content {
+  flex: 1;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items at the start (left) */
+  justify-content: flex-start; /* Align content at the start (top) */
+}
+
+.text-content h3,
+.text-content p {
+  text-align: left; /* Explicitly set text alignment to left */
+}
+
+.image-content {
+  flex: 1;
+  overflow: hidden; /* Ensure overflow is hidden */
+}
+
+.service-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Cover the entire container */
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}

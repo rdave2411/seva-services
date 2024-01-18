@@ -1,0 +1,20 @@
+.faq-item {
+    border-bottom: 1px solid #ddd;
+    width: 50vw;
+  }
+  
+  .question {
+    padding: 10px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  .answer {
+    padding: 10px;
+    background-color: #fff;
+  }
+  
+  .faq-item.open .question {
+    background-color: #3498db;
+    color: #fff;
+  }

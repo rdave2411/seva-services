@@ -1,0 +1,113 @@
+.nav {
+  background-color: #ffffff;
+  padding: 10px;
+  padding-left: 50px;
+  padding-top: 5px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column; /* Updated to column */
+  align-items: center;
+  justify-content: center; /* Updated to center */
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; /* Adjusted margin between logo-container and ul */
+}
+
+.logo {
+  height: 110px;
+  margin-right: 10px;
+}
+
+.nav h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.nav li {
+  margin-right: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.nav a:hover {
+  color: #ffc107;
+}
+
+.nav li.dropdown {
+  position: relative;
+}
+
+.nav .dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%; /* Position the dropdown below the parent */
+  left: 0;
+  background-color: #f8f8f8; /* Background color of the dropdown */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a drop shadow to the dropdown */
+  z-index: 1000; /* Set a high z-index to ensure it appears above other elements */
+  width: 200px; /* Set the width of the dropdown */
+  align-items: flex-start; /* Align items at the start (left) */
+}
+
+.nav li.dropdown:hover .dropdown-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align items to the start (left) */
+  align-items: flex-start; /* Align items to the start (left) */
+}
+
+/* Additional styles for dropdown items */
+.nav .dropdown-content li {
+  margin-right: 0; /* Remove margin between dropdown items */
+}
+
+.nav .dropdown-content li:not(:first-child) {
+  border-top: 1px solid #ddd; /* Add a 1px solid border at the top of each item except the first one */
+  width: 100%; /* Make the line span the whole width */
+  box-sizing: border-box; /* Include padding and border in the width */
+  padding: 5px; /* Adjust padding to separate text from the line */
+}
+
+.nav .dropdown-content a {
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 10px;
+  text-align: left; /* Left-align the text */
+}
+
+.nav .dropdown-content a:hover {
+  color: #ffc107;
+}
+
+/* Apply the same font styles to the dropdown content as the rest of the navigation */
+.nav .dropdown-content {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.nav .dropdown-content a {
+  font-weight: bold;
+  font-size: 16px;
+}

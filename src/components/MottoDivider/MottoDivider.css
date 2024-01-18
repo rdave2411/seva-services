@@ -1,0 +1,12 @@
+/* MottoDivider.css */
+.motto-divider {
+    text-align: center;
+    background: linear-gradient(to right, #6a99f7, #fa5258);
+    color: #fff;
+    font-size: 24px;
+    padding: 5px;
+    padding-top: 30px;
+    margin-top: 10px; /* Adjust the margin as needed */
+    height: 50px;
+  }
+  

@@ -1,0 +1,46 @@
+.footer {
+    background-color: #333; /* Background color of the footer bar */
+    width: 100vw; /* Set the width of the footer bar to 100% */
+    height: 250px;
+    display: flex;
+    justify-content: center; /* Adjust spacing between links */
+    align-items: center; /* Center items vertically */
+    bottom: 0; /* Position it at the bottom of the viewport */
+  }
+  
+  .footer-links ul {
+    list-style: none; /* Remove default list styles */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Display links in a vertical list */
+    align-items: flex-start; /* Align the starting point of each item */
+    padding-right: 80px; /* Spacing between footer items */
+  }
+  
+  .footer li {
+    margin-bottom: 10px; /* Spacing between footer items */
+  }
+  
+  .footer a {
+    text-decoration: none; /* Remove underlines from links */
+    color: white; /* Text color of footer links */
+    font-weight: bold; /* Make the text bold */
+    font-size: 16px; /* Adjust the font size */
+  }
+  
+  .footer a:hover {
+    color: #ffc107; /* Change text color on hover */
+  }
+  
+  .social-link a {
+    padding-left: 350px;
+    text-decoration: none; /* Remove underlines from links */
+    color: white; /* Text color of social link */
+    font-weight: bold; /* Make the text bold */
+    font-size: 16px; /* Adjust the font size */
+  }
+  
+  .social-link a:hover {
+    color: #ffc107; /* Change text color on hover */
+  }

@@ -1,0 +1,15 @@
+#root {
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f7f7f7;
+}
+
+.divider{
+  height: 175px;
+}
