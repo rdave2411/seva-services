@@ -18,12 +18,12 @@ const NavigationBar = () => {
           <Link to='/services'>Services</Link>
           <ul className="dropdown-content">
             <li><Link to='/service1'>Domestic Assistance</Link></li>
-            <li><Link to='/services/service2'>Personal Care </Link></li>
-            <li><Link to='/services/service3'>Meal Preparation </Link></li>
-            <li><Link to='/services/service4'>In-Home Respite </Link></li>
-            <li><Link to='/services/service5'>Group and Centre-Based Activities </Link></li>
-            <li><Link to='/services/service6'>Transport Assistance </Link></li>
-            <li><Link to='/services/service6'>Nursing Services </Link></li>
+            <li><Link to='/service2'>Personal Care </Link></li>
+            <li><Link to='/service3'>Meal Preparation </Link></li>
+            <li><Link to='/service4'>In-Home Respite </Link></li>
+            <li><Link to='/service5'>Group and Centre-Based Activities </Link></li>
+            <li><Link to='/service6'>Transport Assistance </Link></li>
+            <li><Link to='/service7'>Nursing Services </Link></li>
           </ul>
         </li>
         <li><Link to='/news'>News</Link></li>

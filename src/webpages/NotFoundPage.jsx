@@ -1,12 +1,12 @@
 import React from 'react';
 
-const ServicesPage = () => {
+const NoteFoundPage = () => {
   return (
     <div className='container'>
       <div className='divider'/>
-      <h1>Services Page</h1>
+        <h1>Page not found</h1>
     </div>
   );
 };
 
-export default ServicesPage;
+export default NoteFoundPage;

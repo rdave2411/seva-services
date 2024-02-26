@@ -9,7 +9,7 @@ const ServiceGrid = () => {
     {
       heading: 'Domestic Assistance',
       body: 'Assisting a loved one to maintain their independence can help an entire family avoid unnecessary stresses and improve quality of life, particularly as many families are not equipped appropriately or have the time needed',
-      image: 'https://www.pakainfo.com/wp-content/uploads/2021/09/image-url-for-testing.jpg',
+      image: '../../assets/image-care-1.jpeg',
       buttonText: 'Learn More',
       buttonLink: '/services',
     },
