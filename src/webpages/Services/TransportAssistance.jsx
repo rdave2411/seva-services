@@ -14,7 +14,7 @@ const TransportAssistance = () => {
           imageHeight="300px"
           />
     </div>
-    <h2> For more information, Contact us</h2>
+    <h2> For more information, contact us</h2>
     <div className='container'>
       <ContactForm />
     </div>
